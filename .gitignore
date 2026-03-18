@@ -28,3 +28,6 @@ Package.resolved
 # Secrets - never commit
 *.env
 Freq/Config/SpotifyConfig.swift
+
+# Private docs
+freq-prd.md
