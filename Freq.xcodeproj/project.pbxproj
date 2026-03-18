@@ -1,0 +1,364 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1051791990AA533666958044 /* FreqApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267F05284DCA6202A27CC15C /* FreqApp.swift */; };
+		2FD8AC9E37CBB426A40714B3 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237E245CD9C2C8D678EAEFBA /* HomeView.swift */; };
+		3E2242DF5C484B4AB4B2EA1A /* SpotifyAuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB6BFC7BD02EA0818FD8F16 /* SpotifyAuthService.swift */; };
+		4EE4DC0551BD5DEA2D0AAB98 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5FC69FDBBC6C842BD2148A /* LoginView.swift */; };
+		92A74999BCA596EC8A12E94D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4028E4AA5BDC41590602F603 /* ContentView.swift */; };
+		92AF6476D9FB6F4BC829B7FC /* SpotifyTokens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F72C3FDE2E046B36E469ACE /* SpotifyTokens.swift */; };
+		9629BED3EF79E2B63F5FAFD2 /* KeychainHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49721613EF4D821644318032 /* KeychainHelper.swift */; };
+		A951B228F42031FF10EB2ECF /* SpotifyConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1FFA40DC126ECE9306E0A54 /* SpotifyConfig.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		237E245CD9C2C8D678EAEFBA /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		267F05284DCA6202A27CC15C /* FreqApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreqApp.swift; sourceTree = "<group>"; };
+		4028E4AA5BDC41590602F603 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		49721613EF4D821644318032 /* KeychainHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainHelper.swift; sourceTree = "<group>"; };
+		5F72C3FDE2E046B36E469ACE /* SpotifyTokens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyTokens.swift; sourceTree = "<group>"; };
+		9D5FC69FDBBC6C842BD2148A /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		D1FFA40DC126ECE9306E0A54 /* SpotifyConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyConfig.swift; sourceTree = "<group>"; };
+		E3684464F45B3030D89C4665 /* Freq.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Freq.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAC577D5410004AA2B9F6370 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		EEB6BFC7BD02EA0818FD8F16 /* SpotifyAuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyAuthService.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0B6D28B46A4572507B6C30C9 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				49721613EF4D821644318032 /* KeychainHelper.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		2787EFF4CC79EEA4A073F039 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				D1FFA40DC126ECE9306E0A54 /* SpotifyConfig.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		3B6208FDA807B8837EFA8A9C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4028E4AA5BDC41590602F603 /* ContentView.swift */,
+				237E245CD9C2C8D678EAEFBA /* HomeView.swift */,
+				9D5FC69FDBBC6C842BD2148A /* LoginView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		52D7FCDF60BC25E290ECCA34 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E3684464F45B3030D89C4665 /* Freq.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		738D27E5DC55FBFB8DCE54F5 = {
+			isa = PBXGroup;
+			children = (
+				957D86CBF0E30263BEA4214E /* Freq */,
+				52D7FCDF60BC25E290ECCA34 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7F52CA09924DC5CB93B37055 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5F72C3FDE2E046B36E469ACE /* SpotifyTokens.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		957D86CBF0E30263BEA4214E /* Freq */ = {
+			isa = PBXGroup;
+			children = (
+				267F05284DCA6202A27CC15C /* FreqApp.swift */,
+				EAC577D5410004AA2B9F6370 /* Info.plist */,
+				2787EFF4CC79EEA4A073F039 /* Config */,
+				7F52CA09924DC5CB93B37055 /* Models */,
+				DAB43603B72762F94DE35733 /* Services */,
+				0B6D28B46A4572507B6C30C9 /* Utilities */,
+				3B6208FDA807B8837EFA8A9C /* Views */,
+			);
+			path = Freq;
+			sourceTree = "<group>";
+		};
+		DAB43603B72762F94DE35733 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				EEB6BFC7BD02EA0818FD8F16 /* SpotifyAuthService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9BCA87ED4AAB9441656ABC13 /* Freq */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74E29ED0EF29272FAFA2D52B /* Build configuration list for PBXNativeTarget "Freq" */;
+			buildPhases = (
+				92E32BC9CF565FF669F5A758 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Freq;
+			packageProductDependencies = (
+			);
+			productName = Freq;
+			productReference = E3684464F45B3030D89C4665 /* Freq.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		85DB877C0741C665AB12DA9C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = F713C6934F9069AB50C17A4D /* Build configuration list for PBXProject "Freq" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 738D27E5DC55FBFB8DCE54F5;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 52D7FCDF60BC25E290ECCA34 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9BCA87ED4AAB9441656ABC13 /* Freq */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92E32BC9CF565FF669F5A758 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92A74999BCA596EC8A12E94D /* ContentView.swift in Sources */,
+				1051791990AA533666958044 /* FreqApp.swift in Sources */,
+				2FD8AC9E37CBB426A40714B3 /* HomeView.swift in Sources */,
+				9629BED3EF79E2B63F5FAFD2 /* KeychainHelper.swift in Sources */,
+				4EE4DC0551BD5DEA2D0AAB98 /* LoginView.swift in Sources */,
+				3E2242DF5C484B4AB4B2EA1A /* SpotifyAuthService.swift in Sources */,
+				A951B228F42031FF10EB2ECF /* SpotifyConfig.swift in Sources */,
+				92AF6476D9FB6F4BC829B7FC /* SpotifyTokens.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		023AF6069ED1D23D01A22330 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Freq/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Freq;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.freq.app;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0761F13638DDF2FAAB2FD5E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		336CB4150EC3DCFB6AB23133 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D9D8DC696D3315AF5153E3A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Freq/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Freq;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.freq.app;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		74E29ED0EF29272FAFA2D52B /* Build configuration list for PBXNativeTarget "Freq" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9D8DC696D3315AF5153E3A7 /* Debug */,
+				023AF6069ED1D23D01A22330 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F713C6934F9069AB50C17A4D /* Build configuration list for PBXProject "Freq" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				336CB4150EC3DCFB6AB23133 /* Debug */,
+				0761F13638DDF2FAAB2FD5E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 85DB877C0741C665AB12DA9C /* Project object */;
+}
